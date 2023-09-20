@@ -1,6 +1,6 @@
 class MakeSnippet:
     def __init__(self):
-        make_snippet = "make snippet"
+        self.make_snippet = "make snippet"
 
     def cut(self, text):
         if len(text) > 5:
