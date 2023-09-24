@@ -26,6 +26,7 @@ class DiaryEntry:
         allowed_words = wpm * minutes
         if self.read_so_far >= len(words):
             self.read_so_far = 0
+            
         start = self.read_so_far
         end = self.read_so_far + allowed_words
         chunk = words[start:end]
